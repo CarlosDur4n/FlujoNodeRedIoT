@@ -1,0 +1,1421 @@
+[
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "40c3fe688a043d00",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "style": {
+            "stroke": "#ffC000",
+            "fill": "#ffC000",
+            "fill-opacity": "0.21",
+            "label": true
+        },
+        "nodes": [
+            "3f0190a488336e73",
+            "dba72d1cbef7bad8",
+            "d6a9a626835ddaea",
+            "a4ddb114b7abc980",
+            "4a27dc506d1222d5",
+            "8659a1a7eff4141e",
+            "f3ad56202a1122af",
+            "243fd05014e011ad",
+            "2d8a1c636856556e",
+            "cb947ffe64433447",
+            "2b190bfb26a34035",
+            "5835754cb81a502d"
+        ],
+        "x": 94,
+        "y": 539,
+        "w": 892,
+        "h": 202
+    },
+    {
+        "id": "977eb9b875081280",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true,
+            "color": "#c8e7a7",
+            "fill": "#e3f3d3"
+        },
+        "nodes": [
+            "b6a6643e3de0ae53",
+            "593a158f4817ef7f",
+            "8def9ae0ac77ec50",
+            "68149a47a6b88468",
+            "4eaa24022e040e60",
+            "be0cc4b1131eb078",
+            "fe447dff51d22d3d",
+            "347c48b69c50d17e",
+            "91a0faa1d4a940d5",
+            "c56afd19efb76dbd",
+            "be3783cecce32e4f",
+            "6b0b6085ab8f14fc",
+            "82cdda4d09160d29",
+            "5358e3792f970a5d",
+            "852ad5ce28df07af",
+            "5103aa939e8fec84",
+            "1af4dcdc4444d2a3",
+            "78c5881f80e4e5f1",
+            "dbc807c293d970df"
+        ],
+        "x": 94,
+        "y": 119,
+        "w": 632,
+        "h": 402
+    },
+    {
+        "id": "10f2072c5634c27c",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt.eclipseprojects.io",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "2c51d133294edb4b",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "91d3e07efa20e896",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5fee06c5f8c3fdc9",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#049cfb",
+                "baseFont": "Century Gothic,CenturyGothic,AppleGothic,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "Lucida Sans Typewriter,Lucida Console,Monaco,monospace",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#4B7930",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#d18f00",
+                    "edited": true
+                },
+                "page-backgroundColor": {
+                    "value": "#454545",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#d18f00",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#d18f00",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#4b7930",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Lucida Sans Typewriter,Lucida Console,Monaco,monospace"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Datos de estación",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "3679b3b15c003b10",
+        "type": "MySQLdatabase",
+        "name": "test",
+        "host": "172.17.0.5",
+        "port": "3306",
+        "db": "Datos",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "a9482b09e17119db",
+        "type": "MySQLdatabase",
+        "name": "db_grupo8",
+        "host": "10.160.0.29",
+        "port": "3306",
+        "db": "Estacion",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "4c58442bf771c809",
+        "type": "MySQLdatabase",
+        "name": "ejemplo",
+        "host": "10.244.25.246",
+        "port": "3306",
+        "db": "Estacion",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "a6367fbb0b620cc8",
+        "type": "ui_tab",
+        "name": "Datos Estación",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6b374e8f261c6a30",
+        "type": "ui_group",
+        "name": "Datos estación meteorológica ",
+        "tab": "a6367fbb0b620cc8",
+        "order": 1,
+        "disp": true,
+        "width": "22",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6718a2d8a6bea333",
+        "type": "ui_tab",
+        "name": "Borrar Datos",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6cabc1004152fcf8",
+        "type": "ui_group",
+        "name": "Borrar datos",
+        "tab": "6718a2d8a6bea333",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8a5778a2c5081487",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6cabc1004152fcf8",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "39bb08901f0d3336",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6cabc1004152fcf8",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c6854f3350382662",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6cabc1004152fcf8",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4f63f6081c605e9d",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6cabc1004152fcf8",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "149f44fbb86a1513",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6cabc1004152fcf8",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bf9a3dbd2d98783d",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6cabc1004152fcf8",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4a311f497f7d0470",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6cabc1004152fcf8",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4d8720ba73619036",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6cabc1004152fcf8",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7cfc2f470fe894a6",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6cabc1004152fcf8",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7b733f07147e52d1",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6cabc1004152fcf8",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4bd824a60f22e74a",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6cabc1004152fcf8",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "82e3879b25f82cca",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6cabc1004152fcf8",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a9dc3b7c87bb58f3",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "be7bd90f6dc74728",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bb9d635ead933f3e",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4de6f022f45e320a",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "63e0c6901216eefd",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ef541f3ce411d1f2",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b89e98e47def3fcb",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "800c74c08a0a785a",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c74d26f6a91e3478",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "946a14dc62cd5896",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 13,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "0ce130cd5f6744cb",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 15,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "5cbdc835e94b885f",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 16,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "6056ce978c94f719",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 17,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "f43abc3f002a4bcb",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9f5e94b9cc0b9a16",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "af8d3614b1364e10",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 22,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "58a374069165610f",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 23,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "106ecda51181adeb",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 24,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9cec9cd97a5ecc2c",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 26,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b47b4dd21784228e",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 27,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "08861681306e339c",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 28,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2ada6b252d835ba3",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 29,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "c392c7e17ed6cd90",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 30,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "c6aa5f0928dc0f05",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 31,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "8d4f67e4280f7ac2",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "6b374e8f261c6a30",
+        "order": 32,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "3f0190a488336e73",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "40c3fe688a043d00",
+        "name": "Insert",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 290,
+        "y": 580,
+        "wires": [
+            [
+                "dba72d1cbef7bad8"
+            ]
+        ]
+    },
+    {
+        "id": "dba72d1cbef7bad8",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "g": "40c3fe688a043d00",
+        "name": "Insert",
+        "func": "var Humedad = global.get(\"humedad\");\nvar Temperatura = global.get(\"temperatura\");\nvar Presion = global.get(\"presion\");\nvar Altitud = global.get(\"altura\");\n\nmsg.payload = [Humedad, Temperatura, Presion, Altitud];\nmsg.topic = \"INSERT INTO `Estacion`.`Datos` (`Humedad`, `Temperatura`, `Presion`, `Altitud`) VALUES (?, ?, ?, ?);\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 580,
+        "wires": [
+            [
+                "d6a9a626835ddaea"
+            ]
+        ]
+    },
+    {
+        "id": "d6a9a626835ddaea",
+        "type": "mysql",
+        "z": "f6f2187d.f17ca8",
+        "g": "40c3fe688a043d00",
+        "mydb": "a9482b09e17119db",
+        "name": "db_ingresar",
+        "x": 650,
+        "y": 580,
+        "wires": [
+            [
+                "a4ddb114b7abc980"
+            ]
+        ]
+    },
+    {
+        "id": "a4ddb114b7abc980",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "40c3fe688a043d00",
+        "name": "debug 20",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "4a27dc506d1222d5",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "g": "40c3fe688a043d00",
+        "name": "BorrarDatos",
+        "func": "msg.topic = \"delete from Datos\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 700,
+        "wires": [
+            [
+                "f3ad56202a1122af"
+            ]
+        ]
+    },
+    {
+        "id": "8659a1a7eff4141e",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "g": "40c3fe688a043d00",
+        "name": "",
+        "group": "6cabc1004152fcf8",
+        "order": 14,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Borrar ",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 370,
+        "y": 700,
+        "wires": [
+            [
+                "4a27dc506d1222d5"
+            ]
+        ]
+    },
+    {
+        "id": "f3ad56202a1122af",
+        "type": "mysql",
+        "z": "f6f2187d.f17ca8",
+        "g": "40c3fe688a043d00",
+        "mydb": "a9482b09e17119db",
+        "name": "db_borrar",
+        "x": 720,
+        "y": 700,
+        "wires": [
+            [
+                "2d8a1c636856556e"
+            ]
+        ]
+    },
+    {
+        "id": "243fd05014e011ad",
+        "type": "ui_table",
+        "z": "f6f2187d.f17ca8",
+        "g": "40c3fe688a043d00",
+        "group": "6cabc1004152fcf8",
+        "name": "Tabla",
+        "order": 2,
+        "width": 10,
+        "height": 6,
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 910,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "2d8a1c636856556e",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "g": "40c3fe688a043d00",
+        "name": "Select_tabla",
+        "func": "msg.topic = \"select * from Datos\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 640,
+        "wires": [
+            [
+                "cb947ffe64433447"
+            ]
+        ]
+    },
+    {
+        "id": "cb947ffe64433447",
+        "type": "mysql",
+        "z": "f6f2187d.f17ca8",
+        "g": "40c3fe688a043d00",
+        "mydb": "a9482b09e17119db",
+        "name": "db_tabla",
+        "x": 720,
+        "y": 640,
+        "wires": [
+            [
+                "243fd05014e011ad"
+            ]
+        ]
+    },
+    {
+        "id": "b6a6643e3de0ae53",
+        "type": "mqtt in",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "",
+        "topic": "st/grupo8/humedad",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10f2072c5634c27c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 200,
+        "wires": [
+            [
+                "593a158f4817ef7f",
+                "dbc807c293d970df"
+            ]
+        ]
+    },
+    {
+        "id": "593a158f4817ef7f",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "Humedad",
+        "func": "global.set(\"humedad\",  msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 220,
+        "wires": [
+            [
+                "91a0faa1d4a940d5",
+                "6b0b6085ab8f14fc"
+            ]
+        ]
+    },
+    {
+        "id": "8def9ae0ac77ec50",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "Temperatura",
+        "func": "global.set(\"temperatura\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 300,
+        "wires": [
+            [
+                "be3783cecce32e4f",
+                "852ad5ce28df07af"
+            ]
+        ]
+    },
+    {
+        "id": "68149a47a6b88468",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "Presion",
+        "func": "global.set(\"presion\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 380,
+        "wires": [
+            [
+                "c56afd19efb76dbd",
+                "5358e3792f970a5d"
+            ]
+        ]
+    },
+    {
+        "id": "4eaa24022e040e60",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "Altura",
+        "func": "global.set(\"altura\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 480,
+        "wires": [
+            [
+                "82cdda4d09160d29"
+            ]
+        ]
+    },
+    {
+        "id": "be0cc4b1131eb078",
+        "type": "mqtt in",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "",
+        "topic": "st/grupo8/temperatura",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10f2072c5634c27c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 280,
+        "wires": [
+            [
+                "8def9ae0ac77ec50",
+                "78c5881f80e4e5f1"
+            ]
+        ]
+    },
+    {
+        "id": "fe447dff51d22d3d",
+        "type": "mqtt in",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "",
+        "topic": "st/grupo8/presion",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10f2072c5634c27c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 360,
+        "wires": [
+            [
+                "68149a47a6b88468",
+                "1af4dcdc4444d2a3"
+            ]
+        ]
+    },
+    {
+        "id": "347c48b69c50d17e",
+        "type": "mqtt in",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "",
+        "topic": "st/grupo8/altura",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10f2072c5634c27c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 460,
+        "wires": [
+            [
+                "4eaa24022e040e60",
+                "5103aa939e8fec84"
+            ]
+        ]
+    },
+    {
+        "id": "91a0faa1d4a940d5",
+        "type": "ui_level",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "group": "6b374e8f261c6a30",
+        "order": 3,
+        "width": 10,
+        "height": 2,
+        "name": "Humedad",
+        "label": "Humedad",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00c4eb",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": 100,
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": 0,
+        "animations": "soft",
+        "shape": "2",
+        "colorschema": "rainbow",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": true,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 600,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "c56afd19efb76dbd",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "",
+        "group": "6b374e8f261c6a30",
+        "order": 14,
+        "width": 10,
+        "height": 4,
+        "label": "Presion",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "1",
+        "ymax": "2000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 580,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be3783cecce32e4f",
+        "type": "ui_level",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "group": "6b374e8f261c6a30",
+        "order": 9,
+        "width": 10,
+        "height": 2,
+        "name": "Temperatura",
+        "label": "Temperatura",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00c4eb",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": 100,
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "",
+        "layout": "sh",
+        "channelA": "",
+        "channelB": "",
+        "decimals": 0,
+        "animations": "soft",
+        "shape": 2,
+        "colorschema": "rainbow",
+        "textoptions": "default",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 610,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "6b0b6085ab8f14fc",
+        "type": "ui_gauge",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "G. humedad",
+        "group": "6b374e8f261c6a30",
+        "order": 1,
+        "width": 5,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Humedad",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 590,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "82cdda4d09160d29",
+        "type": "ui_gauge",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "G. altura",
+        "group": "6b374e8f261c6a30",
+        "order": 18,
+        "width": 5,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Altura",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 560,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "5358e3792f970a5d",
+        "type": "ui_gauge",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "G. presión",
+        "group": "6b374e8f261c6a30",
+        "order": 21,
+        "width": 5,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Presión",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "3000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 590,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "852ad5ce28df07af",
+        "type": "ui_gauge",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "G. temperatura",
+        "group": "6b374e8f261c6a30",
+        "order": 5,
+        "width": 5,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Temperatura",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 620,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "5103aa939e8fec84",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "debug 21",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "1af4dcdc4444d2a3",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "debug 22",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "78c5881f80e4e5f1",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "debug 23",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "dbc807c293d970df",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "977eb9b875081280",
+        "name": "debug 24",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "2b190bfb26a34035",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "g": "40c3fe688a043d00",
+        "name": "",
+        "group": "6cabc1004152fcf8",
+        "order": 14,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Actualizar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 370,
+        "y": 640,
+        "wires": [
+            [
+                "2d8a1c636856556e"
+            ]
+        ]
+    },
+    {
+        "id": "5835754cb81a502d",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "40c3fe688a043d00",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 680,
+        "wires": [
+            [
+                "4a27dc506d1222d5"
+            ]
+        ]
+    }
+]
